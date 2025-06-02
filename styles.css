@@ -1,26 +1,19 @@
-@font-face {
-    font-family: 'Berkeley Mono Variable';
-    src: url('https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@master/patched-fonts/BerkeleyMono/BerkeleyMonoVariable-Regular.ttf') format('truetype');
-    font-weight: 100 900;
-    font-style: normal;
-}
-
 :root {
     /* Silicon Theme Colors */
-    --bg-color: #1D1F23;
-    --text-color: #FEFEFE;
-    --accent-color: #5485F0;
-    --secondary-color: #CECECE;
-    --border-color: #5A5A5A;
-    --border-variant: #3A3F47;
-    --section-bg: #24262A;
-    --code-bg: #20222A;
-    --element-hover: #2D2F36;
-    --success-color: #3ECC6C;
-    --warning-color: #E6B532;
-    --error-color: #CC2128;
+    --bg-color: #1d1f23;
+    --text-color: #fefefe;
+    --accent-color: #5485f0;
+    --secondary-color: #cecece;
+    --border-color: #5a5a5a;
+    --border-variant: #3a3f47;
+    --section-bg: #24262a;
+    --code-bg: #20222a;
+    --element-hover: #2d2f36;
+    --success-color: #3ecc6c;
+    --warning-color: #e6b532;
+    --error-color: #cc2128;
     --hint-color: #808080;
-    --cyan-color: #00ACEC;
+    --cyan-color: #00acec;
 }
 
 * {
@@ -30,7 +23,7 @@
 }
 
 body {
-    font-family: 'Berkeley Mono Variable', monospace;
+    font-family: "Berkeley Mono Variable", monospace;
     background-color: var(--bg-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -80,8 +73,8 @@ nav a {
     border-radius: 4px;
 }
 
-nav a:hover, nav a.active {
-    background-color: var(--element-hover);
+nav a:hover,
+nav a.active {
     color: var(--accent-color);
 }
 
@@ -187,17 +180,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.code-snippet {
-    background-color: var(--code-bg);
-    padding: 18px;
-    border-radius: 6px;
-    overflow-x: auto;
-    margin: 20px 0;
-    font-size: 0.9rem;
-    line-height: 1.6;
-    border: 1px solid var(--border-variant);
-}
-
 .highlight {
     color: var(--accent-color);
 }
@@ -216,11 +198,6 @@ a:hover {
 
 .highlight-cyan {
     color: var(--cyan-color);
-}
-
-.highlight-keyword {
-    color: var(--accent-color);
-    font-weight: normal;
 }
 
 .highlight-hint {
@@ -244,13 +221,13 @@ a:hover {
     .projects {
         grid-template-columns: 1fr;
     }
-    
+
     nav ul {
         flex-wrap: wrap;
         gap: 10px;
         justify-content: center;
     }
-    
+
     nav a {
         font-size: 0.9rem;
     }
