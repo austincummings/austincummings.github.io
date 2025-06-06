@@ -78,13 +78,13 @@ nav a.active {
     color: var(--accent-color);
 }
 
-section {
+/* section {
     margin-bottom: 60px;
     background-color: var(--section-bg);
     padding: 30px;
     border-radius: 8px;
     border: 1px solid var(--border-variant);
-}
+} */
 
 h2 {
     font-size: 1.5rem;
