@@ -1,0 +1,300 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Austin Cummings - Resume</title>
+
+        <style>
+            * {
+                font-family: "Berkeley Mono", monospace;
+            }
+
+            @media screen {
+                :root {
+                    background-color: black;
+                }
+            }
+
+            body {
+                width: 8.5in;
+                height: 11in;
+                box-sizing: border-box;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 0.25in;
+                background-color: white;
+                font-size: 0.7rem;
+            }
+
+            @media print {
+                :root,
+                html {
+                    background-color: white !important;
+                }
+
+                body {
+                    width: 8.5in;
+                    height: 11in;
+                    box-sizing: border-box;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding: 0.25in;
+                    font-size: 0.7rem;
+                }
+
+                .skills-list li {
+                    -webkit-print-color-adjust: exact !important;
+                    color-adjust: exact !important;
+                    print-color-adjust: exact !important;
+                    background-color: #f0f0f0 !important;
+                }
+            }
+
+            a {
+                color: black;
+                text-decoration: none;
+            }
+
+            section {
+                margin-bottom: 1rem;
+            }
+
+            .job,
+            .project,
+            .education {
+                margin-bottom: 1rem;
+            }
+
+            .job-header,
+            .project-header,
+            .education-header {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 0.25rem;
+            }
+
+            .job-title,
+            .project-title,
+            .degree {
+                font-weight: bold;
+                font-size: 0.75rem;
+            }
+
+            ul {
+                margin-top: 0.25rem;
+                padding-left: 1.25rem;
+            }
+
+            li {
+                margin-bottom: 0;
+            }
+
+            .skills-list,
+            .small-skills-list {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+                list-style-type: none;
+                padding-left: 0;
+            }
+
+            .small-skills-list {
+                font-size: 0.65rem;
+            }
+
+            .skills-list li,
+            .small-skills-list li {
+                background-color: #f0f0f0;
+                padding: 0.2rem 0.4rem;
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Austin Cummings</h1>
+            <p>
+                <a href="tel:+15207801703">(520) 780-1703</a> |
+                <a href="mailto:me@austincummings.com">me@austincummings.com</a>
+            </p>
+        </header>
+        <main>
+            <section>
+                <h2>Summary</h2>
+                <p>
+                    Experienced Software Engineer with 10+ years in full-stack
+                    development (Java, Angular, SQL), delivering scalable
+                    enterprise applications for aerospace and defense. Skilled
+                    in automation, CI/CD, performance optimization, and
+                    mentoring teams while solving complex technical challenges.
+                </p>
+            </section>
+
+            <section>
+                <h2>Experience</h2>
+                <div class="job">
+                    <div class="job-header">
+                        <span class="job-title">Software Engineer</span>
+                        <span class="job-date">2017 - Present</span>
+                    </div>
+                    <div class="company-name">Raytheon, Tucson, AZ</div>
+                    <section>
+                        <h4>Skills and Technologies</h4>
+                        <ul class="small-skills-list">
+                            <li>AngularJS</li>
+                            <li>Angular</li>
+                            <li>JavaScript/TypeScript</li>
+                            <li>SQL</li>
+                            <li>MyBatis</li>
+                            <li>Java</li>
+                            <li>Jakarta EE</li>
+                            <li>Maven</li>
+                            <li>SQL Server</li>
+                            <li>TFS Build & Release</li>
+                            <li>WebSockets</li>
+                            <li>GWT</li>
+                            <li>C#</li>
+                        </ul>
+                    </section>
+                    <ul>
+                        <li>
+                            Developed a next-generation project statusing tool
+                            leveraging WebSockets for real-time updates
+                        </li>
+                        <li>
+                            Optimized Angular application performance, reducing
+                            data processing and rendering times
+                        </li>
+                        <li>
+                            Developed web-based Earned Value Management System
+                            (EVMS) tools using Java, Angular, AngularJS,
+                            Bootstrap, and Material Design
+                        </li>
+                        <li>
+                            Designed and implemented database schemas supporting
+                            diverse applications
+                        </li>
+                        <li>Maintained and enhanced CI/CD pipelines</li>
+                        <li>
+                            Automated development environment setup with custom
+                            scripts
+                        </li>
+                        <li>
+                            Collaborated via pair programming for cross-training
+                            and rigorous code reviews
+                        </li>
+                        <li>
+                            Designed and implemented an HMAC-based
+                            authentication system for secure server-to-server
+                            communication
+                        </li>
+                        <li>
+                            Documented Git-flow process for development team
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <div class="job-header">
+                        <span class="job-title">Systems Programmer</span>
+                        <span class="job-date">2013 - 2017</span>
+                    </div>
+                    <div class="company-name">
+                        University of Arizona, NASA OSIRIS-REx Mission
+                    </div>
+                    <section>
+                        <h4>Skills and Technologies</h4>
+                        <ul class="small-skills-list">
+                            <li>AngularJS</li>
+                            <li>Node.js</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Oracle Database</li>
+                            <li>Linux</li>
+                        </ul>
+                    </section>
+                    <ul>
+                        <li>
+                            Developed web applications for science and
+                            engineering data retrieval using AngularJS
+                        </li>
+                        <li>
+                            Built interactive visualization tools for
+                            mission-critical scientific data
+                        </li>
+                        <li>
+                            Implemented data pipelines to process and validate
+                            spacecraft telemetry
+                        </li>
+                        <li>
+                            Collaborated in pair programming sessions to solve
+                            technical challenges
+                        </li>
+                        <li>
+                            Created tools for generating parsers and database
+                            schemas from a custom data model specification
+                            language
+                        </li>
+                        <li>
+                            Created documentation on how to use Git for
+                            scientists and science pipeline developers
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Projects</h2>
+                <div class="project">
+                    <div class="project-header">
+                        <span class="project-title">SpaceSim</span>
+                        <span class="project-date">2023 - Present</span>
+                    </div>
+                    <ul>
+                        <li>
+                            Built a spaceflight and solar system simulator in
+                            Rust using the Bevy game engine
+                        </li>
+                        <li>
+                            Integrated floating point origin plugin with a
+                            physics engine for high-fidelity simulation;
+                            contributed enhancements back to the Bevy community
+                        </li>
+                        <li>
+                            Utilized NASA SPICE Kernels for precise planetary
+                            body positioning
+                        </li>
+                        <li>
+                            Designed an extensible architecture with WebAssembly
+                            (WASM) and WebGPU compute shaders
+                        </li>
+                        <li>
+                            Provided cross-platform compatibility across macOS,
+                            Linux, and Windows
+                        </li>
+                        <li>
+                            Modified a rigid body physics engine to integrate
+                            with floating origin system to allow for solar
+                            system scale physics simulation
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+                <div class="education">
+                    <div class="education-header">
+                        <span class="degree">B.S. Computer Science</span>
+                        <span class="graduation-date">
+                            Expected September 2026
+                        </span>
+                    </div>
+                    <div class="university">
+                        Western Governors University (WGU), Online
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
